@@ -69,3 +69,16 @@ getRandomElement(affirmations);
         console.log(i);
 });
 */
+
+// Function to print out the placeholderArr's elements into a readable format for the user
+
+/* Can't get this to work
+function getInspirationalMessage() {
+    for(i = 0; i < placeholderArr.length; i += 1) {
+    placeholderArr += i;
+    };
+    console.log("Here is your inspirational quote for the day:" + placeholderArr);
+};
+
+getInspirationalMessage();
+*/
