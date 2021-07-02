@@ -72,13 +72,10 @@ getRandomElement(affirmations);
 
 // Function to print out the placeholderArr's elements into a readable format for the user
 
-/* Can't get this to work
-function getInspirationalMessage() {
-    for(i = 0; i < placeholderArr.length; i += 1) {
-    placeholderArr += i;
+/* This works, but prints too many weird things.
+for(i = 0; i < 2; i += 1) {
+    placeholderArr += i + " ";
     };
-    console.log("Here is your inspirational quote for the day:" + placeholderArr);
-};
-
-getInspirationalMessage();
 */
+
+console.log("Here is your inspirational quote for the day: " + placeholderArr.join(' '));
