@@ -58,5 +58,8 @@ function getRandomElement(arr) {
 };
 
 getRandomElement(nouns);
+getRandomElement(predicatePhrases);
+getRandomElement(affirmations);
 
+// For testing what gets put into the placeholder array
 console.log(placeholderArr);
