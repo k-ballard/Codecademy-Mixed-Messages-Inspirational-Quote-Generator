@@ -62,4 +62,10 @@ getRandomElement(predicatePhrases);
 getRandomElement(affirmations);
 
 // For testing what gets put into the placeholder array
-console.log(placeholderArr);
+// console.log(placeholderArr);
+
+// This works, but it doesn't print the elements on one line.
+/* placeholderArr.forEach((i) => {
+        console.log(i);
+});
+*/
