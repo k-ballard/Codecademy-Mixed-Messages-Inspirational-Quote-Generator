@@ -31,6 +31,7 @@ const affirmations = [
 ];
 
 // Tests that the arrays is correct.
+/*
 for(let i = 0; i < nouns.length; i++){
     console.log(nouns[i]);
     };
@@ -42,3 +43,20 @@ for(let i = 0; i < predicatePhrases.length; i++){
 for(let i = 0; i < affirmations.length; i++){
     console.log(affirmations[i]);
     };
+*/
+
+// Creating a placeholder array for our elements.
+
+let placeholderArr = [];
+
+// Function to get a random item from nouns.
+
+function getRandomElement(arr) {
+    let randomElement = Math.floor(Math.random() * arr.length);
+    let chosenElement = arr[randomElement]
+    placeholderArr.push(chosenElement);
+};
+
+getRandomElement(nouns);
+
+console.log(placeholderArr);
